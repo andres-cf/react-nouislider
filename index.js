@@ -54,6 +54,11 @@ Nouislider.propTypes = {
   direction: React.PropTypes.oneOf(['ltr', 'rtl']),
   // http://refreshless.com/nouislider/more/#section-disable
   disabled: React.PropTypes.bool,
+  // https://refreshless.com/nouislider/slider-read-write/#section-formatting
+  format: React.PropTypes.shape({
+    to: React.PropTypes.func,
+    from: React.PropTypes.func
+  }),
   // http://refreshless.com/nouislider/slider-options/#section-limit
   limit: React.PropTypes.number,
   // http://refreshless.com/nouislider/slider-options/#section-margin

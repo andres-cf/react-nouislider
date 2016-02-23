@@ -47,6 +47,7 @@
     "npm-shrinkwrap": "^200.4.0",
     "react-dom": "^0.14.0",
     "webpack": "^1.12.2",
-    "webpack-dev-server": "^1.12.1"
+    "webpack-dev-server": "^1.12.1",
+    "wnumb": "https://github.com/andres-cf/wnumb/tarball/master"
   }
 }
